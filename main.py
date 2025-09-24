@@ -8,6 +8,7 @@ import redis
 
 GCP_PRIVATE_KEY_ID = 'c4c474d61701fd6fd4191883b8fea9a8411bf771'
 
+
 app = Flask(__name__)
 
 @app.route('/req_1')
