@@ -107,7 +107,7 @@ def red_one():
     redis_db = redis.StrictRedis(host="localhost", port=6379, db=0, password=config.SOURCE_2)
     return redis_db
 
-@app.route('/red_2')
+@app.route('/red_2') 
 def red_2():
     # hardcoded secret in redis connection
     redis_db = redis.StrictRedis(host="localhost", port=6379, db=0, password='redis')
